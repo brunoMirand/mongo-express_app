@@ -13,10 +13,16 @@
 ```sh
 $    cp .env.example .env # you can edit if necessary
 ```
+
 In file docker-compose, change line 26 to:
 ```yml
 volumes:
       - /home/{your_user}/{mongo-express_app}/volumes/mongoDB:/data/db
+```
+Create a new folder with the following name `volumes/mongoDB` at the root of the project.
+
+```sh
+$    mkdir -p volumes/mongoDB
 ```
 
 ## Makefile
