@@ -8,7 +8,7 @@
 
 `docker-compose  1.23.1+` See how to download and install in [Docker Compose][1]
 
-## Setup
+## :clipboard: Setup
 
 ```sh
 $    cp .env.example .env # you can edit if necessary
@@ -25,7 +25,7 @@ Create a new folder with the following name `volumes/mongoDB` at the root of the
 $    mkdir -p volumes/mongoDB
 ```
 
-## Makefile
+## :orange_book: Makefile
 
 Some commands on this project are made using `GNU make`, to know available actions on make, use `make` or `make usage`:
 
