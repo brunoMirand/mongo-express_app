@@ -10,6 +10,14 @@
 
 ## :clipboard: Setup
 
+First clone the repository
+
+```sh
+$    git clone git@github.com:brunoMiranda8922/mongo-express_app.git
+$    cd mongo-express_app
+```
+
+Copy env vars:
 ```sh
 $    cp .env.example .env # you can edit if necessary
 ```
