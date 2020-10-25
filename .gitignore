@@ -1,5 +1,12 @@
 # Folders
-/volumes/mongoDB/*
+/volumes/mongoDB/diagnostic.data
+/volumes/mongoDB/journal
 
 # Files
 .env
+*.wt
+*.lock
+*.turtle
+*.bson
+
+WiredTiger
