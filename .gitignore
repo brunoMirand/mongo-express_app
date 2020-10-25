@@ -1,0 +1,5 @@
+# Folders
+/volumes/mongoDB/*
+
+# Files
+.env
